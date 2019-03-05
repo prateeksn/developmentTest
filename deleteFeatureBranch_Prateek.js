@@ -32,6 +32,7 @@ function getOpenFeatureBranchesFromGit() {
 					arr = branch.name.split("/");
 					nameOfTheBranch.push(arr[0]);
 					counter = counter + 1;
+					
 					if (branchCount == counter) {
 						findAllSFBranch(nameOfTheBranch);
 					}
