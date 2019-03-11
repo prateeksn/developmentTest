@@ -24,6 +24,7 @@ chekcing the request
 var fs = require('fs');
 var request = require('request');
 var branchNames = [];
+
 var updatedBranchNames = [];
 var verifyCount = 0;
 var branchSize = 0;
